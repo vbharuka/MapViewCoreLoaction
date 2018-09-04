@@ -1,0 +1,16 @@
+To add corelocation frame work:-
+Go to targets -> Build Phases -> Link Binary with libraries -> Add Core Location Framework
+
+Add permission in info.plist
+Privacy location when in use and write your own message
+
+Add Map Kit View to view controller. Import MapKit and CoreLocation
+
+extend view controller with CLLocationManagerDelegate
+
+Create a manager and add functionalities to it
+Add CLLocationManager delegate methods
+
+
+To change location with simulator:-
+Debug -> Location -> Choose Any
